@@ -10,9 +10,9 @@
 
 ---
 
-## CRON
+## CRON 
 
-
+Los archivos están dentro de la carpeta "_CRON_" 
 
 ---
 
