@@ -1,4 +1,1 @@
-# !/bin/bash
-# Este script muestra la fecha del sistema y quien ha iniciado sesión
-date
-who
+15 10 * * * usuario /home/fco/Documentos/SISTEMAS/CRON/Ej_1/test1.sh
