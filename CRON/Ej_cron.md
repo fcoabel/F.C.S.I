@@ -66,9 +66,9 @@
 
    1. Cada hora en punto ejecutamos la sincronización horaria y mandamos la salida a /dev/null/.
 
-      ~~~~cron
+      ~~~
    0 * * * * /usr/sbin/ntpdate hora.oxixares.com > /dev/null
-      ~~~~
+      ~~~
 
       
 
