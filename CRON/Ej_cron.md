@@ -74,9 +74,9 @@
 
    2. Programar un trabajo (A) para ejecutarse en el minuto 30 de cada hora de cada día.
 
-      ~~~~cron
+      ~~~cron
    30 * * * * root ./TrabajoA.sh > /etc/trabajos 
-      ~~~~
+      ~~~
 
       
 
