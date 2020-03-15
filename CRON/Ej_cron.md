@@ -74,64 +74,64 @@
 
    2. Programar un trabajo (A) para ejecutarse en el minuto 30 de cada hora de cada día.
 
-      ~~~~
-   30 * * * * root ./ > /etc/ 
+      ~~~~cron
+   30 * * * * root ./TrabajoA.sh > /etc/trabajos 
       ~~~~
 
       
 
    3. Programar un trabajo (B) para ejecutarse cada día a las 20:30h.
    
-      ~~~~
-      30 20 * * * 
+      ~~~~cron
+      30 20 * * * root ./TrabajoB.sh > /etc/trabajos 
       ~~~~
    
       
    
    4. Programar un trabajo (C) para ejecutarse de lunes a viernes a las 20:30h.
    
-      ~~~~
-      30 20 * * 1-5 
+      ~~~~cron
+      30 20 * * 1-5 root ./TrabajoC.sh > /etc/trabajos 
       ~~~~
    
       
    
    5. Programar un trabajo (D) para ejecutarse los martes y los jueves a las 20:30h.
    
-      ~~~~
-      30 20 * * 2,4
+      ~~~~cron
+      30 20 * * 2,4 root ./TrabajoD.sh > /etc/trabajos 
       ~~~~
    
       
    
    6. Programar un trabajo (E) para ejecutarse los días 10 y 20 de todos los meses a las 20:30h.
    
-      ~~~~
-      30 20 10,20 * * 
+      ~~~~cron
+      30 20 10,20 * * root ./TrabajoE.sh > /etc/trabajos 
       ~~~~
    
       
    
    7. Programar un trabajo (F) para ejecutarse cada 15 minutos.
    
-      ~~~~
-      */15 * * * *
+      ~~~~cron
+      */15 * * * * root ./TrabajoF.sh > /etc/trabajos 
       ~~~~
    
       
    
    8. Programar un trabajo (G) para ejecutarse cada día a las 00:00h.
    
-      ~~~~
-      00 00 * * *
+      ~~~~cron
+      00 00 * * * root ./TrabajoG.sh > /etc/trabajos 
       ~~~~
    
       
    
    9. Programar un trabajo (H) para ejecutarse cada primer día de mes a las 00:00h.
    
-      ~~~~
-      00 00 1 * *
+      ~~~~cron
+      00 00 1 * * root ./TrabajoH.sh > /etc/trabajos 
       ~~~~
    
       
