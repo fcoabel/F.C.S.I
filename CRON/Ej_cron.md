@@ -1,3 +1,5 @@
+
+
 # Ejercicios Cron
 
 ---
@@ -46,20 +48,20 @@
    0/10 2 * * 1-5 /home/fco/Documentos/SISTEMAS/CRON/Ej_1/test1.sh 
    ~~~
 
-
+---
 
 ## SEGUNDA PARTE:
 
    1. Cada hora en punto ejecutamos la sincronización horaria y mandamos la salida a /dev/null/.
 
       ~~~
-0 * * * * /usr/sbin/ntpdate hora.oxixares.com > /dev/null
+      0 * * * * /usr/sbin/ntpdate hora.oxixares.com > /dev/null
       ~~~
    
    2. Programar un trabajo (A) para ejecutarse en el minuto 30 de cada hora de cada día.
 
       ~~~cron
-30 * * * * root ./TrabajoA.sh > /etc/trabajos 
+      30 * * * * root ./TrabajoA.sh > /etc/trabajos 
       ~~~
 
    3. Programar un trabajo (B) para ejecutarse cada día a las 20:30h.
@@ -103,3 +105,4 @@
       ~~~cron
       00 00 1 * * root ./TrabajoH.sh > /etc/trabajos 
       ~~~
+
