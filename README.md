@@ -1,4 +1,4 @@
-# Ejercicio FSTAB, CRON, SQUID y IPTABLES
+# Ejercicio FSTAB, CRON Y SQUID
 
 ---
 
@@ -20,11 +20,9 @@ Dentro de la carpeta "_CRON_" hay dos archivos y una carpeta:
 
 ## SQUID
 
+Dentro de la carpeta "_SQUID_" hay dos pantallazos y dos archivos:
 
-
----
-
-## IPTABLES
-
-
-
+1. El pantallazo "" 
+2. El pantallazo ""
+3. El archivo "_squid.conf_" con la configuración de proxy.
+4. El archivo "_web_bloqueadas.txt_" es el archivo de la "ACL" para el bloqueo de los sitios web [MARCA](https://www.marca.com) e [IES AYALA](https://iesayala.com). 
