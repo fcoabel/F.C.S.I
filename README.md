@@ -4,7 +4,7 @@
 
 ## FSTAB
 
-
+Dentro de la carpeta "_FSTAB_" hay una breve explicación de como hacer el ejercicio, además se adjunta una captura del archivo _/etc/fstab_.
 
 ---
 
@@ -22,7 +22,7 @@ Dentro de la carpeta "_CRON_" hay dos archivos y una carpeta:
 
 Dentro de la carpeta "_SQUID_" hay dos pantallazos y dos archivos:
 
-1. El pantallazo "" 
-2. El pantallazo ""
+1. El pantallazo "_IESAYALA.png_" con la web bloqueada.
+2. El pantallazo "_MARCA.png_" con la web bloqueada.
 3. El archivo "_squid.conf_" con la configuración de proxy.
 4. El archivo "_web_bloqueadas.txt_" es el archivo de la "ACL" para el bloqueo de los sitios web [MARCA](https://www.marca.com) e [IES AYALA](https://iesayala.com). 
